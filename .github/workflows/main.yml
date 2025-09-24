@@ -5,9 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron : 00 12 * * * #8am EDT
-    - cron : 00 10 * * 1-5 #6pm EDT
-    - cron : 30 15 * * * #1126am EDT
+    #- cron : 00 12 * * * #8am EDT
+    #- cron : 00 10 * * 1-5 #6pm EDT
+    #- cron : 30 15 * * * #1126am EDT
 
 jobs:
   run-postman-tests:
